@@ -1,0 +1,36 @@
+.sidebar{
+    position: absolute;
+    background-color: rgb(117, 121, 128);
+    background: #7386D5;
+    /* color: aliceblue; */
+    color: #fff;
+    /* transition: all 0.3s;  */
+    left: 0;
+    height: 100vh;
+    width: 280px;
+    padding-top: 80px;
+}
+.sidebar li{
+list-style: none;
+padding: 1rem 2rem;
+border-bottom: solid rgba(146, 72, 72, 0.1) 1px;
+display: flex;
+align-items:center;
+gap: 1rem;
+font-weight: 300;
+}
+
+.sidebar li:hover{
+    background-color: rgb(244, 249, 252);
+    color: rgb(0, 0, 0);
+}
+
+/* width: 250px;
+position: fixed;
+top: 0;
+left: 0;
+height: 100vh;
+z-index: 999;
+background: #7386D5;
+color: #fff;
+transition: all 0.3s; */
